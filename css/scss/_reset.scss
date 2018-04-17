@@ -1,238 +1,243 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
 /* Document
    ========================================================================== */
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
 }
 
 /* Sections
    ========================================================================== */
+
 /**
  * Remove the margin in all browsers.
  */
-/* line 25, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 34, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
 /* Grouping content
    ========================================================================== */
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 47, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
 }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 61, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
 
 /* Text-level semantics
    ========================================================================== */
+
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 75, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 a {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 84, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 97, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 107, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
 
 /**
  * Add the correct font size in all browsers.
  */
-/* line 120, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 small {
-  font-size: 80%;
+    font-size: 80%;
 }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 129, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
-/* line 137, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
-/* line 141, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 
 /* Embedded content
    ========================================================================== */
+
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 152, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 img {
-  border-style: none;
+    border-style: none;
 }
 
 /* Forms
    ========================================================================== */
+
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 164, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
 }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 184, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 button,
 input {
-  /* 1 */
-  overflow: visible;
+    /* 1 */
+    overflow: visible;
 }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 195, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 button,
 select {
-  /* 1 */
-  text-transform: none;
+    /* 1 */
+    text-transform: none;
 }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 205, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+    -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 216, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 228, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
-/* line 239, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+    padding: 0.35em 0.75em 0.625em;
 }
 
 /**
@@ -241,133 +246,135 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 250, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
 }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 269, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 progress {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 277, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 textarea {
-  overflow: auto;
+    overflow: auto;
 }
 
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 286, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 298, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 308, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 [type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 319, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 328, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
 }
 
 /* Interactive
    ========================================================================== */
+
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 342, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 details {
-  display: block;
+    display: block;
 }
 
 /*
  * Add the correct display in all browsers.
  */
-/* line 350, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 summary {
-  display: list-item;
+    display: list-item;
 }
 
 /* Misc
    ========================================================================== */
+
 /**
  * Add the correct display in IE 10+.
  */
-/* line 361, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 template {
-  display: none;
+    display: none;
 }
 
 /**
  * Add the correct display in IE 10.
  */
-/* line 369, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 [hidden] {
-  display: none;
+    display: none;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 378, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 html,
 body,
 div,
@@ -449,16 +456,16 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 469, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+
 article,
 aside,
 details,
@@ -470,44 +477,36 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
-/* line 483, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 body {
-  line-height: 1;
+    line-height: 1;
 }
 
-/* line 487, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
-/* line 492, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
-/* line 497, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
-/* line 505, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-/* line 510, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-/*# sourceMappingURL=../style.map */
