@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 11, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -18,7 +18,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 25, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 25, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 body {
   margin: 0;
 }
@@ -27,7 +27,7 @@ body {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 34, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 34, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -39,7 +39,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 47, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 47, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -53,7 +53,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 61, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 61, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -66,7 +66,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 75, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 75, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 a {
   background-color: transparent;
 }
@@ -75,7 +75,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 84, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 84, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -88,7 +88,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 97, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 97, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 b,
 strong {
   font-weight: bolder;
@@ -98,7 +98,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 107, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 107, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 code,
 kbd,
 samp {
@@ -111,7 +111,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 120, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 120, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 small {
   font-size: 80%;
 }
@@ -120,7 +120,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 129, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 129, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 sub,
 sup {
   font-size: 75%;
@@ -129,12 +129,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 137, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 137, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 141, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 141, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 sup {
   top: -0.5em;
 }
@@ -144,7 +144,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 152, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 152, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 img {
   border-style: none;
 }
@@ -155,7 +155,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 164, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 164, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 button,
 input,
 optgroup,
@@ -175,7 +175,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 184, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 184, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 button,
 input {
   /* 1 */
@@ -186,7 +186,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 195, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 195, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 button,
 select {
   /* 1 */
@@ -196,7 +196,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 205, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 205, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -207,7 +207,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 216, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 216, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -219,7 +219,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 228, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 228, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -230,7 +230,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 239, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 239, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -241,7 +241,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 250, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 250, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -260,7 +260,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 269, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 269, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 progress {
   vertical-align: baseline;
 }
@@ -268,7 +268,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 277, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 277, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 textarea {
   overflow: auto;
 }
@@ -277,7 +277,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 286, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 286, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -289,7 +289,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 298, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 298, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -299,7 +299,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 308, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 308, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -310,7 +310,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 319, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 319, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -319,7 +319,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 328, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 328, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -332,7 +332,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 342, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 342, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 details {
   display: block;
 }
@@ -340,7 +340,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 350, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 350, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 summary {
   display: list-item;
 }
@@ -350,7 +350,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 361, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 361, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 template {
   display: none;
 }
@@ -358,7 +358,7 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 369, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 369, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 [hidden] {
   display: none;
 }
@@ -367,7 +367,7 @@ template {
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 378, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 378, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 html,
 body,
 div,
@@ -458,7 +458,7 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 469, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 469, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 article,
 aside,
 details,
@@ -473,24 +473,24 @@ section {
   display: block;
 }
 
-/* line 483, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 483, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 487, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 487, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 ol,
 ul {
   list-style: none;
 }
 
-/* line 492, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 492, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 497, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 497, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -499,13 +499,13 @@ q:after {
   content: none;
 }
 
-/* line 505, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 505, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 510, /home/david/projetos/Game-News/Game-News/css/scss/_reset.scss */
+/* line 510, /mnt/Projetos/projetos/Game-News/Game-News/css/scss/_reset.scss */
 * {
   box-sizing: border-box;
 }
