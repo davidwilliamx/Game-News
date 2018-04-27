@@ -1,0 +1,48 @@
+.header {
+    padding: 50px 0px;
+    ._logo {
+        float: left;
+    }
+    ._nav {
+        font-size: 0.875rem;
+        float: right;        
+        .-list {
+            padding: 20px 0 20px 0;
+            text-align: left;
+            .-item {
+                display: inline-block;
+                &:hover .-list {
+                    display: block;
+                }
+                .-link {
+                    padding: 0 10px 0 10px;
+                    color: #000000;
+                    text-decoration: none;
+                }
+                .-list {
+                    position: absolute;
+                    display: none;
+                    .-item {
+                        display: block;
+                        .-link {
+                        }
+                    }
+                }
+            }
+            .--border::after {
+                content: "";
+                display: block;
+                margin: 10px 10px;
+                width: 20px;
+                height: 2px;
+                background-color: #000000;
+            }
+        }
+    }
+    ._search {
+        float: right;
+    }
+    ._login {
+        float: right;
+    }
+}
