@@ -4,7 +4,6 @@
         float: left;
     }
     ._nav {
-        font-size: 0.875rem;
         float: right;        
         .-list {
             padding: 20px 0 20px 0;
@@ -25,17 +24,23 @@
                     .-item {
                         display: block;
                         .-link {
+                            @include text(12);
                         }
                     }
                 }
             }
-            .--border::after {
+            .--border {
+                .-link {
+                    @include title(18);
+                }
+                &::after {
                 content: "";
                 display: block;
                 margin: 10px 10px;
                 width: 20px;
                 height: 2px;
                 background-color: #000000;
+                }
             }
         }
     }

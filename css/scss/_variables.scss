@@ -1,0 +1,49 @@
+// Site Colors
+$dark-purple: #17023A;
+$light-purple: #D1B2D1;
+$pink: #606;
+$white: #FFF;
+$black: #000;
+
+
+// Fontes 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:700');
+$primary-font: 'Source Sans Pro', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+// Funçaõ px para em
+@function em($pixel, $contexto: 16) {
+	@return $pixel / $contexto + em;
+}
+
+// Tipografia Fonte e Tamanho
+@mixin text($size) {
+	font-family: $secondary-font;
+	@if $size == 12 {
+		font-size: em(12);
+		line-height: em(20, 12);
+    }
+    @else if $size == 18 {
+		font-size: em(18);
+		line-height: em(30, 18);
+    }
+}
+
+@mixin title($size) {
+	font-family: $primary-font;
+	@if $size == 18 {
+		font-size: em(18);
+		line-height: em(30, 18);
+	}
+	@else if $size == 24 {
+		font-size: em(24);
+		line-height: em(30, 24);
+	}
+}
+
+// Box shadow
+@mixin box-shadow($shadow...) {
+	-webkit-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	box-shadow: $shadow;
+}

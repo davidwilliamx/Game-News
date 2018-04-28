@@ -1,0 +1,59 @@
+.banner {
+    padding: 150px 0;
+    ._title {
+        font-family: $primary-font;
+        font-size: 4.5em;
+        line-height: 1em;
+        font-weight: bolder;
+        z-index: 1;
+        float: left;
+        margin-bottom: 130px;
+        .-link {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+    ._btn {
+        border: 2px solid #332;
+        padding: 12px 15px;
+        border-radius: 5px;
+        background: rgba($color: #000000, $alpha: 0);
+        cursor: pointer;
+        @include title(18);
+        color: #000000;
+        text-transform: uppercase;
+        text-align: left;
+        float: left;
+        clear: both;
+        >span {
+            padding-left: 130px;
+        }
+    }
+    ._nav {
+        clear: both;
+        margin: 250px 0 0 10px;
+        float: left;
+        .-previous {
+            border: 2px solid #332;
+            width: 40px;
+            height: 40px;
+            padding: 0 30px 0 20px;
+            border-radius: 3px;
+            background: rgba($color: #000000, $alpha: 0);
+            cursor: pointer;
+            color: #000000;
+            text-align: left;
+        }
+        .-next {
+            border: 2px solid #332;
+            width: 40px;
+            height: 40px;
+            padding: 0 30px 0 20px;
+            border-radius: 3px;
+            background: rgba($color: #000000, $alpha: 0);
+            cursor: pointer;
+            color: #000000;
+            margin-left: -5px;
+        }
+    }
+}
