@@ -1,3 +1,38 @@
 .page {
     font-family: $secondary-font;
 }
+.-category {
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    display: block;
+    .-link {
+        font-family: $primary-font;
+        font-size: 1em;
+        line-height: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 3px;
+        margin: 0;
+        padding: 5px;
+    }
+}
+.--news {
+    background-color: blue;
+}
+.--trending {
+    background-color: red;
+}
+.--pc {
+    background-color: black;
+}
+.--ps4 {
+    background-color: darkorchid;
+}
+.--xbox {
+    background-color: green;
+}
+.--trailer {
+    background-color: yellowgreen;
+}
