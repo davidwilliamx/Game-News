@@ -1,4 +1,4 @@
-.headlines {
+    .headlines {
     padding: 60px 0;
     ._nav {
         float: left;
@@ -28,26 +28,29 @@
             margin-left: -5px;
         }
     }
-    ._title {
-        font-family: $primary-font;
-        font-size: 1.3em;
-        line-height: 1em;
+    ._header {
         float: left;
         position: relative;
-        margin-top: 35px;
-        .link {
-            text-decoration: none;
-            color: #000000;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        ._title {
+            font-family: $primary-font;
+            font-size: 1.3em;
+            line-height: 1em;
+            text-align: left;
+            position: relative;
+            .link {
+                text-decoration: none;
+                color: #000000;
+            }
         }
-    }
-    ._sub-title {
-        font-family: $secondary-font;
-        font-size: 0.875em;
-        line-height: 1em;
-        float: left;
-        clear: left;
-        position: relative;
-        
+        ._sub-title {
+            font-family: $secondary-font;
+            font-size: 0.875em;
+            line-height: 1em;
+            float: left;
+            position: relative;
+        }
     }
     ._list {
         display: block;
