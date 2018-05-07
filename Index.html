@@ -100,13 +100,12 @@
             <button class="-previous">&lt;</button>
             <button class="-next">&gt;</button>
         </nav>
-        <div class="grid-9">
+        <div class="_header grid-9">
             <h3 class="_title">
                 <a href="#" class="link">Popular articles</a>
             </h3>
             <h4 class="_sub-title">Everyday we write one of the best articles on web</h4>
         </div>
-        
         <ul class="_list">
             <li class="-item grid-4">
                 <div class="-image"></div>
@@ -141,32 +140,58 @@
         </ul>
     </section>
     <!-- End Headlines -->
-    <section class="trending">
-        <div class="_meta">
-            <div class="-category">
-                <a href="#" class="-link --trending">trending</a>
-            </div>
-            <time class="-date">19 April 2018</time>
+    <section class="trending container">
+        <div class="_bg grid-2">
+            <div class="-image"></div>
         </div>
-        <h1 class="_title">
-            <a href="#" class="link">Battlefield 1 Review</a>
-        </h1>
-        <div class="_content">
-            <p>Battlefield’s formula for large-scale, objective-driven warfare is as intense and theatrical as ever against the haunting, archaic backdrop of World War I. Battlefield 1’s single-player campaign is a short but pleasantly surprising anthology of small, human stories that does a good job spotlighting some of the key technology of the era.</p>
-            <p>But it’s the exhilarating multiplayer that most strongly capitalizes on the potential of this old-school arsenal, bringing a number of subtle changes that keep the combat balanced and smart while still allowing for the hallmark chaos that makes Battlefield such a fantastic first-person shooter series.</p>
-        </div>
-        <button class="_btn __more">Read More</button>
-        <div class="_galery">
-            <div class="-wrapper"></div>
-        </div>
-        <div class="_author">
-            <p class="-text">Written by</p>
-            <p class="-name">Maria Chavez</p>
-            <div class="-avatar"></div>
+        <main class="_main grid-6">
+            <header class="-header">
+                <div class="-info">
+                    <div class="-category">
+                        <a href="#" class="-link --trending">trending</a>
+                    </div>
+                    <time class="-date">19 April 2018</time>
+                </div>
+                <h1 class="-title">
+                    <a href="#" class="-link">Battlefield 1 - Impressions and Review</a>
+                </h1>
+            </header>
+            <article class="-article">
+                <div class="-entry">
+                    <p class="-text">Battlefield’s formula for large-scale, objective-driven warfare is as intense and theatrical as ever against the haunting, archaic backdrop of World War I. Battlefield 1’s single-player campaign is a short but pleasantly surprising anthology of small, human stories that does a good job spotlighting some of the key technology of the era.</p>
+                    <p class="-text">But it’s the exhilarating multiplayer that most strongly capitalizes on the potential of this old-school arsenal, bringing a number of subtle changes that keep the combat balanced and smart while still allowing for the hallmark chaos that makes Battlefield such a fantastic first-person shooter series.</p>
+                </div>
+                <footer class="-footer">
+                    <div class="-avatar">
+                        <div class="-image"></div>
+                    </div>
+                    <div class="-author">
+                        <p class="-text">Written by</p>
+                        <p class="-name">Maria Chavez</p>
+                    </div>
+                    <button class="-btn __more">Read More <span>&rarr;</span></button>
+                </footer>
+            </main>
+        </article>
+        <div class="_gallery grid-4">
+            <ul class="-list">
+                <li class="-item grid-6">
+                    <div class="-image"></div>
+                </li>
+                <li class="-item grid-6">
+                    <div class="-image"></div>
+                </li>
+                <li class="-item grid-6">
+                    <div class="-image"></div>
+                </li>
+                <li class="-item grid-6">
+                    <div class="-image"></div>
+                </li>
+            </ul>
         </div>
     </section>
     <!-- End Trending -->
-    <section class="popular">
+    <section class="popular container">
         <h3 class="_title">
             <a href="#" class="link">Popular articles</a>
         </h3>
@@ -260,7 +285,7 @@
         </div>
     </section>
     <!-- End Popular Article -->
-    <section class="upcomming">
+    <section class="upcomming container">
         <h3 class="_title">
             <a href="#" class="link">Upcoming games</a>
         </h3>
@@ -333,14 +358,14 @@
         </ul>
     </section>
     <!-- End Upcomming Games -->
-    <section class="newsletter">
+    <section class="newsletter container">
         <h2 class="_title">Subscribe to our newsletter</h2>
         <h3 class="_sub-title">Everyday we write dozens of great articles. Once a week we will send you best of them.</h3>
         <input type="email" name="email" class="_email" id="email" placeholder="Type your email address...">
         <button type="submit" class="_btn">Subscribe</button>
     </section>
     <!-- End Newsletter -->
-    <footer class="footer">
+    <footer class="footer container">
         <div class="_logo">
             <img src="img/logo.png" alt="Game News">
         </div>
