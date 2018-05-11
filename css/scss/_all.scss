@@ -1,11 +1,17 @@
 .page {
     font-family: $secondary-font;
 }
+.-btn {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
 .-category {
     text-align: center;
     margin: 20px auto;
     position: relative;
     display: block;
+    z-index: 1;
     .-link {
         font-family: $primary-font;
         font-size: .8em;
@@ -16,6 +22,7 @@
         border-radius: 3px;
         margin: 0;
         padding: 5px 10px;
+        cursor: pointer;
     }
 }
 .--news {
@@ -25,7 +32,7 @@
     background-color: red;
 }
 .--pc {
-    background-color: black;
+    background-color: rgba(#000, 0.5);
 }
 .--ps4 {
     background-color: darkorchid;

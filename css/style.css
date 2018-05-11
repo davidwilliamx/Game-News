@@ -719,14 +719,22 @@ table {
 }
 
 /* line 4, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+.-btn {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* line 9, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .-category {
   text-align: center;
   margin: 20px auto;
   position: relative;
   display: block;
+  z-index: 1;
 }
 
-/* line 9, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+/* line 15, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .-category .-link {
   font-family: "Source Sans Pro", sans-serif;
   font-size: .8em;
@@ -737,34 +745,35 @@ table {
   border-radius: 3px;
   margin: 0;
   padding: 5px 10px;
+  cursor: pointer;
 }
 
-/* line 21, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+/* line 28, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .--news {
   background-color: blue;
 }
 
-/* line 24, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+/* line 31, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .--trending {
   background-color: red;
 }
 
-/* line 27, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+/* line 34, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .--pc {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 30, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+/* line 37, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .--ps4 {
   background-color: darkorchid;
 }
 
-/* line 33, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+/* line 40, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .--xbox {
   background-color: green;
 }
 
-/* line 36, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
+/* line 43, E:/Dev/Projetos/Game-News/Game-News/css/scss/_all.scss */
 .--trailer {
   background-color: yellowgreen;
 }
@@ -1017,7 +1026,7 @@ table {
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  margin: 100px 0px 150px 0px;
+  margin: 100px 0px 120px 0px;
 }
 
 /* line 6, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
@@ -1029,32 +1038,33 @@ table {
 .trending ._bg .-image {
   background-color: #74329b;
   height: 750px;
+  border-radius: 5px;
 }
 
-/* line 13, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 14, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main {
   margin-top: 60px;
 }
 
-/* line 15, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 16, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header {
   display: block;
 }
 
-/* line 17, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 18, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header .-info {
   display: inline-block;
   position: relative;
   margin: 20px 0px;
 }
 
-/* line 21, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 22, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header .-info .-category {
   float: left;
   margin: 0px 20px 0px 0px;
 }
 
-/* line 25, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 26, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header .-info .-date {
   font-family: "Open Sans", sans-serif;
   font-size: 0.9em;
@@ -1063,7 +1073,7 @@ table {
   float: left;
 }
 
-/* line 31, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 32, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header .-info .-date::before {
   content: "";
   display: block;
@@ -1075,7 +1085,7 @@ table {
   margin: 5px 20px;
 }
 
-/* line 42, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 43, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header .-info .-date::after {
   content: "";
   display: block;
@@ -1087,14 +1097,14 @@ table {
   margin: 5px 20px;
 }
 
-/* line 54, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 55, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header .-title {
   display: block;
   position: relative;
   padding: 20px 0px;
 }
 
-/* line 58, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 59, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-header .-title .-link {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 3.5em;
@@ -1103,17 +1113,17 @@ table {
   color: #000000;
 }
 
-/* line 67, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 68, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-article {
   display: block;
 }
 
-/* line 69, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 70, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-article .-entry {
   padding: 20px 0px;
 }
 
-/* line 71, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 72, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-article .-entry .-text {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
@@ -1121,7 +1131,7 @@ table {
   padding-bottom: 20px;
 }
 
-/* line 79, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 80, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer {
   display: block;
   padding: 20px 0px;
@@ -1129,7 +1139,7 @@ table {
   margin-right: 50px;
 }
 
-/* line 84, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 85, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer .-avatar {
   display: inline-block;
   position: relative;
@@ -1137,7 +1147,7 @@ table {
   margin-right: 10px;
 }
 
-/* line 89, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 90, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer .-avatar .-image {
   width: 60px;
   height: 60px;
@@ -1146,7 +1156,7 @@ table {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-/* line 97, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 98, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer .-author {
   display: inline-block;
   position: relative;
@@ -1154,7 +1164,7 @@ table {
   padding-top: 10px;
 }
 
-/* line 102, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 103, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer .-author .-text {
   font-family: "Open Sans", sans-serif;
   font-size: .8em;
@@ -1162,7 +1172,7 @@ table {
   font-style: italic;
 }
 
-/* line 108, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 109, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer .-author .-name {
   font-family: "Open Sans", sans-serif;
   font-size: .9em;
@@ -1170,7 +1180,7 @@ table {
   font-weight: bold;
 }
 
-/* line 115, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 116, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer .-btn {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1em;
@@ -1190,36 +1200,284 @@ table {
   margin-left: 40px;
 }
 
-/* line 132, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 133, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._main .-footer .-btn > span {
   padding-left: 20px;
 }
 
-/* line 138, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 139, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._gallery {
   margin: 140px 0px 0px 0px;
 }
 
-/* line 140, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 141, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._gallery .-list {
   margin-right: -150px;
 }
 
-/* line 142, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 143, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._gallery .-list .-item {
   height: 200px;
   border-radius: 5px;
   background-color: #74329b;
 }
 
-/* line 146, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 147, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._gallery .-list .-item:nth-child(1), .trending ._gallery .-list .-item:nth-child(2) {
   margin-bottom: 15px;
 }
 
-/* line 149, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
+/* line 150, E:/Dev/Projetos/Game-News/Game-News/css/scss/_trending.scss */
 .trending ._gallery .-list .-item .-image {
   width: 100%;
+}
+
+/* line 1, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular {
+  width: 100%;
+  position: relative;
+  margin: 0 auto 100px auto;
+  display: block;
+  z-index: 1;
+}
+
+/* line 7, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._header {
+  display: block;
+  position: relative;
+  padding: 0px 0px 40px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  float: none;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+/* line 15, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._header .-title {
+  z-index: 1;
+}
+
+/* line 17, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._header .-title .-link {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3em;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: #000000;
+  z-index: 1;
+}
+
+/* line 26, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._header .-sub-title {
+  font-family: "Open Sans", sans-serif;
+  z-index: 1;
+}
+
+/* line 30, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._header .-btn {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  border: 2px solid #332;
+  padding: 15px 30px 15px 30px;
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #000000;
+  margin-top: 20px;
+  float: right;
+  z-index: 1;
+}
+
+/* line 49, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles {
+  position: relative;
+  float: none;
+  margin: 40px auto;
+  z-index: 1;
+}
+
+/* line 54, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list {
+  z-index: 1;
+}
+
+/* line 56, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-big {
+  margin: 60px auto;
+  float: none;
+  padding: 40px 0px;
+  position: relative;
+}
+
+/* line 61, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-big .-player {
+  height: 700px;
+  border-radius: 5px;
+  background-color: #74329b;
+  z-index: 10;
+  position: static;
+  display: block;
+}
+
+/* line 68, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-big .-player .-header {
+  display: block;
+  margin: 0px auto;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 450px;
+}
+
+/* line 75, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-big .-player .-header .-category {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+/* line 80, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-big .-player .-header .-title {
+  text-align: center;
+  z-index: 1;
+}
+
+/* line 83, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-big .-player .-header .-title .-link {
+  text-decoration: none;
+  z-index: 1;
+}
+
+/* line 91, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item {
+  z-index: 1;
+}
+
+/* line 93, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-image {
+  height: 250px;
+  border-radius: 5px;
+  background-color: #74329b;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+/* line 100, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-title {
+  z-index: 1;
+  margin: 20px 0px;
+}
+
+/* line 103, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-title .-link {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: left;
+  position: relative;
+  text-decoration: none;
+  color: #000000;
+  z-index: 1;
+}
+
+/* line 115, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-info {
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+
+/* line 118, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-info > .-category {
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+/* line 122, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-info .-date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  line-height: 1em;
+  float: right;
+}
+
+/* line 129, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-preview {
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 40px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* line 136, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-preview .-content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+/* line 144, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-footer {
+  margin: 40px 0px;
+  padding: 10px 0px;
+}
+
+/* line 147, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-footer .-btn {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  float: right;
+  border: 2px solid #332;
+  padding: 15px 30px 15px 30px;
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #000000;
+  margin-left: 40px;
+}
+
+/* line 164, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-footer .-btn > span {
+  padding-left: 20px;
+}
+
+/* line 168, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-footer .-author {
+  display: inline-block;
+  position: relative;
+  float: left;
+  padding-top: 10px;
+}
+
+/* line 173, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-footer .-author .-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: .8em;
+  line-height: 1.5em;
+  font-style: italic;
+}
+
+/* line 179, E:/Dev/Projetos/Game-News/Game-News/css/scss/_popular.scss */
+.popular ._articles .-list .-item .-footer .-author .-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: .9em;
+  line-height: 1.5em;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=../style.map */
