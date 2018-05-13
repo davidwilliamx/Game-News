@@ -8,7 +8,7 @@
 		display: block;
 		position: relative;
 		padding: 0px 0px 40px 0px;
-		border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+		border-bottom: 1px solid #c3c3c3;
 		float: none;
 		margin: 0 auto;
 		z-index: 1;
@@ -26,6 +26,7 @@
 		.-sub-title {
 			@include text(14);
 			z-index: 1;
+			color: #c3c3c3;
 		}
 		.-btn {
 			font-family: $primary-font;
@@ -34,11 +35,10 @@
             text-transform: uppercase;
             position: relative;
             display: inline-block;
-            border: 2px solid #332;
             padding: 15px 30px 15px 30px;
             border-radius: 50px;
             background: rgba($color: #000000, $alpha: 0);
-            border: 1px solid rgba(0, 0, 0, 0.3);
+            border: 1px solid #c3c3c3;
             cursor: pointer;
             color: #000000;
             margin-top: 20px;
@@ -153,11 +153,10 @@
 		                display: inline-block;
 		                position: relative;
 		                float: right;
-		                border: 2px solid #332;
 		                padding: 15px 30px 15px 30px;
 		                border-radius: 50px;
 		                background: rgba($color: #000000, $alpha: 0);
-		                border: 1px solid rgba(0, 0, 0, 0.3);
+		                border: 1px solid #c3c3c3;
 		                cursor: pointer;
 		                color: #000000;
 		                margin-left: 40px;
