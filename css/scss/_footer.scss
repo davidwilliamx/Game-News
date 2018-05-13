@@ -1,0 +1,65 @@
+.footer {
+	width: 100%;
+	padding: 60px 0px 200px 0px;
+	background-color: #000000;
+	border-top: 8px solid #74329b;
+	._logo {
+		float: left;
+	}
+	._nav {
+        float: left;
+        .-list {
+            padding: 0px 0 20px 0;
+            text-align: left;
+            .-item {
+                display: inline-block;
+                .-link {
+                    padding: 0 10px 0 10px;
+                    color: #c3c3c3;
+                    text-decoration: none;
+                }
+                .-list {
+                    position: absolute;
+                    padding-top: 20px;
+                    .-item {
+                        display: block;
+                        .-link {
+                            @include text(12);
+                        }
+                    }
+                }
+            }
+            .--border {
+                .-link {
+                    @include title(18);
+                }
+                &::after {
+                content: "";
+                display: block;
+                margin: 10px 10px;
+                width: 20px;
+                height: 2px;
+                background-color: #c3c3c3;
+                }
+            }
+        }
+    }
+	._message {
+		.-title {
+			@include title(18);
+			color: #c3c3c3;
+                &::after {
+                content: "";
+                display: block;
+                margin: 10px 0px;
+                width: 20px;
+                height: 2px;
+                background-color: #c3c3c3;
+                }
+            }
+		}
+		.-text {
+			@include text(12);
+			color: #c3c3c3;
+		}
+}
